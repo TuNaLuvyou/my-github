@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Phân biệt class và id</title>
+    <style>
+        /* Dùng class: chọn theo dấu chấm (.) */
+        .highlight {
+            color: red;
+        }
+
+        /* Dùng id: chọn theo dấu thăng (#) */
+        #title {
+            font-size: 24px;
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- id: Chỉ dùng 1 lần duy nhất -->
+    <h1 id="title">Trang web của tôi</h1>
+
+    <!-- class: Có thể dùng nhiều lần -->
+    <p class="highlight">Đây là đoạn văn thứ nhất có màu đỏ.</p>
+    <p class="highlight">Đây là đoạn văn thứ hai cũng có màu đỏ.</p>
+    <p>Đây là đoạn văn không có class gì cả.</p>
+
+</body>
+</html>

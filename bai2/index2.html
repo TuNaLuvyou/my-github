@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-     <!-- Chèn Video -->
-    <video width = "320" height = "240" controls>
-        <source src = "Clove Agent Trailer - VALORANT.mp4" type = "video/mp4">
+    <!-- Chèn Video -->
+    <!-- chèn video phải có chiều rộng và chiều cao -->
+    <video width="" height="444" controls loop autoplay muted>
+        <!-- controls hiện thanh điều khiển cho video -->
+        <!-- loop video tắt tự lặp lại -->
+        <!-- autoplay là tự động chạy video nhưng mà với điều kiện phải muted-->
+        <source src="Clove Agent Trailer - VALORANT.mp4" type="video/mp4">
     </video>
 
-    <p>TEST LẦN CUỐI CÙNG</p>
+    <!-- Chèn Audio -->
+    <audio controls>
+        <!-- các thuộc tính tương tự nhưng khong cần chiều rộng và cao -->
+        <!-- Riêng mp3 thì type phải là mpeg -->
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
 </body>
+
 </html>
